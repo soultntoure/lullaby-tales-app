@@ -1,0 +1,11 @@
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.30
+python-dotenv==1.0.1
+openai==1.35.10
+python-jose[cryptography]==3.3.0
+pydantic==2.8.2
+aiohttp==3.9.5
+aioboto3==12.0.0 # For S3 integration
+pydub==0.25.1 # Optional: for basic audio processing if needed before storing
